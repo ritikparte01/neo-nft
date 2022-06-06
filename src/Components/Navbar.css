@@ -1,0 +1,78 @@
+
+
+
+/* For Color code
+
+    PURPLE:#410F70
+    PINK:#FF00EF
+    BLACK
+    WHITE
+    REDPINK:#ff0077
+
+*/
+
+.container{
+    background: transparent;
+}
+
+.logo h1{
+    color: white;
+}
+
+.logo h1 span{
+    
+  background: #8000ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8000ff, #fe58c1); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8000ff, #fe58c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.wallet .btn{
+    color: #ff0077;
+    border: 1px solid #ff0077;
+    transition: .5s ease-in-out;
+}
+
+.wallet .btn:hover{
+
+    background: -webkit-linear-gradient(to right, #8000ff, #fe58c1); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8000ff, #fe58c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: .6s;
+    color: white;
+    border: none;
+}
+
+.menu{
+    width: 500px;
+    color: white;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.menu ul li a.active{
+   
+  background: #8000ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8000ff, #fe58c1); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8000ff, #fe58c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+
+    
+}
+
+.menu ul li a:hover{
+    color: #ff0077;
+}
